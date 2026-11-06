@@ -1,0 +1,20 @@
+@echo off
+"C:\\Users\\Nikertix\\.jdks\\jbr-21.0.11\\bin\\java" ^
+  --class-path ^
+  "C:\\Users\\Nikertix\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.1.0\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\cli-2.1.0-all.jar" ^
+  com.google.prefab.cli.AppKt ^
+  --build-system ^
+  cmake ^
+  --platform ^
+  android ^
+  --abi ^
+  arm64-v8a ^
+  --os-version ^
+  29 ^
+  --stl ^
+  c++_static ^
+  --ndk-version ^
+  27 ^
+  --output ^
+  "C:\\Users\\Nikertix\\AppData\\Local\\Temp\\agp-prefab-staging17304773258275009285\\staged-cli-output" ^
+  "C:\\Users\\Nikertix\\.gradle\\caches\\8.10.2\\transforms\\be63ff249824c69566748a539feb2801\\transformed\\openxr_loader_for_android-1.1.61\\prefab"

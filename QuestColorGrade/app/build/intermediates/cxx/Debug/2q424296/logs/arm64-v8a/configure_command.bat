@@ -1,0 +1,20 @@
+@echo off
+"C:\\Users\\Nikertix\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\Nikertix\\Desktop\\QuestColorGrade\\app\\src\\main\\cpp" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=29" ^
+  "-DANDROID_PLATFORM=android-29" ^
+  "-DANDROID_ABI=arm64-v8a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+  "-DANDROID_NDK=C:\\Users\\Nikertix\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\Nikertix\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Nikertix\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Nikertix\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\Nikertix\\Desktop\\QuestColorGrade\\app\\build\\intermediates\\cxx\\Debug\\2q424296\\obj\\arm64-v8a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\Nikertix\\Desktop\\QuestColorGrade\\app\\build\\intermediates\\cxx\\Debug\\2q424296\\obj\\arm64-v8a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-DCMAKE_FIND_ROOT_PATH=C:\\Users\\Nikertix\\Desktop\\QuestColorGrade\\app\\.cxx\\Debug\\2q424296\\prefab\\arm64-v8a\\prefab" ^
+  "-BC:\\Users\\Nikertix\\Desktop\\QuestColorGrade\\app\\.cxx\\Debug\\2q424296\\arm64-v8a" ^
+  -GNinja ^
+  "-DANDROID_STL=c++_static"
